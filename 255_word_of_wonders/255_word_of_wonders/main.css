@@ -1,0 +1,171 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+body {
+    
+    font-family: 'Rubik Gemstones',cursive;
+    width: 450px;
+    height: 900px;
+
+    margin: auto;
+
+}
+section {
+    padding-top: 30px;
+    width: 450px;
+    height: 900px;
+    background-image: url("./assets/download.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 900px;
+
+
+}
+h1 {
+    color: #ccb67e;
+    margin: 50px auto;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+table{
+    margin:50px  auto;
+}
+
+td{
+    color: white;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+.hidden-cells{
+    visibility: hidden;
+    border: 0px solid black;
+}
+#circular-area{
+    
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    background: #a84545;
+    color: black;
+    border-radius: 100%;
+    box-shadow: 0 0 30px rgba(0,0,0,15);
+    
+}
+
+
+.keyword-review{
+    border-radius: 20%;
+    margin: auto 190px;
+    text-align: center;
+    background-color:#7e93cc ;
+    color: white;
+}
+
+.clicked {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #7e93cc;
+}
+.material-icons {
+   cursor: pointer;
+   text-align: center;
+   justify-content: center;
+}
+
+.upper{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 115px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.mid{
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.mid > i {
+    padding-top: 30px;
+}
+.mid-left{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.mid-right{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.lower-left{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.lower-right{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.lower {
+    
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+    font-size: 30px;
+}
+.lightbulb{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius:100% ;
+    margin-left: 350px;
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: white;
+}
+.lightbulb > i {
+    transform: scale(1.5);
+    color: red;
+}
+.lightbulb:hover {
+    transform: scale(1.5);
+    border-color: yellowgreen;
+    color:yellowgreen;
+}
+.lightbulb > i:hover {
+    color:yellowgreen;
+    
+}
+
+
